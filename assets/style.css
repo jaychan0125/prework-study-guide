@@ -24,6 +24,12 @@
     margin-left: auto;
     margin-right: auto;
    }
+   #box-model {  /*#-allows CSS rules to target specific ID*/
+   height: 175px;
+   width: 300px; 
+   margin-top: auto;
+   margin-bottom: auto;
+   }
 
    ul {
     padding-left: 40px;
