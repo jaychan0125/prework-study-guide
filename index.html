@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css"> <!--rel-specifies relation b/t current doc and linked doc source.  href-specifies location(URL) of external resource-->
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." width="250" height="250"/>
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie."/>
     </header>
 
     <main>
-
       <section class="card" id="html-section">
         <h2>HTML</h2>
           <ul>
@@ -27,7 +27,18 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
           <ul>
-            <li>Enter your CSS notes here.</li>
+            <li>Three types: Inline CSS, Internal CSS Style Sheet, External CSS Style Sheet </li>
+            <li>Most commonly used will be External CSS Style Sheet. Allows devs to keep all their CSS rules in a seperate file, making design changes easier</li>
+            <li>&nbsp; &nbsp;<!--tab-->Will need to link the file using &lt;link&gt; element placed in the HTML's head. Eg: &lt;head&gt; &lt;link rel="stylesheet" href="./location/file.css"/&gt; &lt;head&gt;</li>
+            <li>Margin indicates how much space we want around the outside of an element.</li>
+            <li>Padding indicates how much space we want around the content inside an element.</li>
+            <li>Selector -defines element or attribute to which rules/declarations will apply</li>
+            <li>CSS Box Model: 
+              <img src="./assets/CSS-box-model.png"/> <!--can't overide CSS style that is formatting images to a specific size-->
+            </li>
+            <li>Declarations -have two components: <i>CSS property</i> we want to apply, and the <i>value of the property</i> </li>
+            <li>Class attributes can be assigned to chosen elements in the HTML to assign CSS rules to</li>
+            <li>&nbsp; &nbsp;eg: <b>.card</b> &nbsp;"."designates a class selector;  "card"is the class. Any HTML element assigned to "class" will gain the proprty assignments from CSS</li>
           </ul>
       </section>
 
