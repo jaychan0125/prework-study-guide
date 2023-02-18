@@ -1,91 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css"> <!--rel-specifies relation b/t current doc and linked doc source.  href-specifies location(URL) of external resource-->
-    <title>Prework Study Guide</title>
-  </head>
-  <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie."/>
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-    </header>
 
-    <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-          <ul>
-            <li>The head element contains information about the webpage</li>
-            <li>Elements in the &lt;head&gt; are not visible to user, except for attribute:Title which is shown in the tab</li>
-            <li>The body element represents the visible content shown to the user</li>
-            <li>HTML is case-sensitive other than declarations</li>
-            <li>&lt;!-- comment --&gt;</li>
-          </ul>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css">       <!--rel-specifies relation b/t current doc and linked doc source.  href-specifies location(URL) of external resource-->
+  <title>Prework Study Guide</title>
+</head>
 
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-          <ul>
-            <li>Three types: Inline CSS, Internal CSS Style Sheet, External CSS Style Sheet </li>
-            <li>Most commonly used will be External CSS Style Sheet. Allows devs to keep all their CSS rules in a seperate file, making design changes easier</li>
-            <li>Will need to link the file using &lt;link&gt; element placed in the HTML's head. Eg: &lt;head&gt; &lt;link rel="stylesheet" href="./location/file.css"/&gt; &lt;head&gt;</li>
-            <li>Margin indicates how much space we want around the outside of an element.</li>
-            <li>Padding indicates how much space we want around the content inside an element.</li>
-            <li>Selector -defines element or attribute to which rules/declarations will apply</li>
-            <li>CSS Box Model: 
-              <img src="./assets/CSS-box-model.png" alt="CSS Box Model" id="box-model"/> <!--can't overide CSS style that is formatting images to a specific size-->
-            </li>
-            <li>Declarations -have two components: <i>CSS property</i> we want to apply, and the <i>value of the property</i> </li>
-            <li>Class attributes can be assigned to chosen elements in the HTML to assign CSS rules to</li>
-            <li>&nbsp; &nbsp;eg: <b>.card</b> &nbsp;"."designates a class selector;  "card"is the class. Any HTML element assigned to "class" will gain the proprty assignments from CSS</li>
-            <li>/* comment */</li>
-          </ul>
-      </section>
+<body>
+  <header id="top">
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
+  </header>
 
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-          <ul>
-            <li>git status: checks what branch we are currently on</li>
-            <li>git checkout (): switch to another branch</li>
-          </ul>
-          <ol>  
-            <li>git status</li>
-            <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-            <li>git add -A: adds all modifications in current working branch to staging area</li>
-            <li>git commit -m "comment": commits to repository, '-m' -associates mesage with our commit</li>
-            <li>git pull origin main: pull base branch into feature before pushing up code (*important to make sure you have the latest version of project)</li>
-            <li>git push origin branch-name: pushes changes from local envrionment into GitHub</li>
-            <li>in GitHub repo, click "Compare & pull request"</li>
-            <li>click "Create pull request"</li>
-            <li>click "Merge pull request"; click "Confirm merge"</li>
-          </ol>
-      </section>
+  <main>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>
+        <li>The head element contains information about the webpage</li>
+        <li>Elements in the &lt;head&gt; are not visible to user, except for attribute:Title which is shown in the tab
+        </li>
+        <li>The body element represents the visible content shown to the user</li>
+        <li>HTML is case-sensitive other than declarations</li>
+        <li>&lt;!-- comment --&gt;</li>
+      </ul>
+    </section>
 
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-          <ul>
-            <li>Ctrl+Shift+I (windows), Command+Option+I (mac), Left-click&gt;Inspect -to access Chrome DevTools</li>
-            <li>Control Flow -order computer executes code. In JavaScript, runs from top down. can use <b>conditional statements</b> and <b>loops</b> to control order code is executed/if at all</li>
-            <li>If statement -will only execute if statement meets a condition/is true
-            <br>Falsy: 0, -0, On, "", null, undefined, NaN, boolean:False
-            <br>Truthy: all other values, boolean:True</li>
-            <li>"else if"; "else"</li>
-            <li>Array -single variable holding group of data. Can store different types of data(string, numbers, etc). identified by zero-indexed and sequential index numbers (first data at 0)</li>
-            <li>For Loop -uses predictable pattern of indices to perform a task on all the items in an array by allowing a sinlge code block to be executed repeatedly (must use another statement to interrupt the control flow)</li>
-            <li>For loops need 3 statements to:  determine starting point; condition; allow iteration over each item <br>eg. for (var x = 0; x &lt; array.length; x++) { code block }</li>
-            <li>// comment if no line-breaks</li>
-            <li>/* comment */</li>
-          </ul>
-      </section>
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>Three types: Inline CSS, Internal CSS Style Sheet, External CSS Style Sheet </li>
+        <li>Most commonly used will be External CSS Style Sheet. Allows devs to keep all their CSS rules in a separate
+          file, making design changes easier</li>
+        <li>Will need to link the file using &lt;link&gt; element placed in the HTML's head. Eg: &lt;head&gt; &lt;link
+          rel="stylesheet" href="./location/file.css"/&gt; &lt;head&gt;</li>
+        <li>Margin indicates how much space we want around the outside of an element.</li>
+        <li>Padding indicates how much space we want around the content inside an element.</li>
+        <li>Selector -defines element or attribute to which rules/declarations will apply</li>
+        <li>CSS Box Model:
+          <img src="./assets/CSS-box-model.png" alt="CSS Box Model" id="box-model" />       <!--can't overide CSS style that is formatting images to a specific size-->
+        </li>
+        <li>Declarations -have two components: <i>CSS property</i> we want to apply, and the <i>value of the
+            property</i> </li>
+        <li>Class attributes can be assigned to chosen elements in the HTML to assign CSS rules to
+        <br>&nbsp; &nbsp;eg: <b>.card</b> &nbsp;"."designates a class selector; "card"is the class. Any HTML element
+          assigned to "class" will gain the property assignments from CSS</li>
+        <li>/* comment */</li>
+      </ul>
+    </section>
 
-    </main>
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <ul>
+        <li>git status: checks what branch we are currently on</li>
+        <li>git checkout (): switch to another branch</li>
+      </ul>
+      <ol>
+        <li>git status</li>
+        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        <li>git add -A: adds all modifications in current working branch to staging area</li>
+        <li>git commit -m "comment": commits to repository, '-m' -associates message with our commit</li>
+        <li>git pull origin main: pull base branch into feature before pushing up code (*important to make sure you have
+          the latest version of project)</li>
+        <li>git push origin branch-name: pushes changes from local environment into GitHub</li>
+        <li>in GitHub repo, click "Compare & pull request"</li>
+        <li>click "Create pull request"</li>
+        <li>click "Merge pull request"; click "Confirm merge"</li>
+      </ol>
+    </section>
 
-    <footer>
-      <p>I can code!</p>
-    </footer>
-  <script src="./assets/script.js"></script> <!--links the JavaScript file to HTML-->
-  </body>
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>Ctrl+Shift+I (windows), Command+Option+I (mac), Left-click&gt;Inspect -to access Chrome DevTools</li>
+        <li>A "variable" is a named container that allows us to store data in our code</li>
+        <li>Control Flow -order computer executes code. In JavaScript, runs from top down. can use <b>conditional
+            statements</b> and <b>loops</b> to control order code is executed/if at all</li>
+        <li>If statement -will only execute if statement meets a condition/is true
+          <br>&emsp;<!--4 space "tab"-->Falsy: 0, -0, On, "", null, undefined, NaN, boolean:False
+          <br>&emsp;Truthy: all other values, boolean:True
+        </li>
+        <li>"else if"; "else"</li>
+        <li>Array -single variable holding group of data. Can store different types of data(string, numbers, etc).
+          identified by zero-indexed and sequential index numbers (first data at 0)</li>
+        <li>For Loop -uses predictable pattern of indices to perform a task on all the items in an array by allowing a
+          sinlge code block to be executed repeatedly (must use another statement to interrupt the control flow)</li>
+        <li>For loops need 3 statements to: determine starting point; condition; allow iteration over each item 
+          <br>eg. for (var x = 0; x &lt; array.length; x++) { code block }</li>
+        <li>A "function" is a set of instructions that tells the computer how to perform a certain task.
+          <br>Functions do not execute automatically; must be called to execute(can be reused).</li>
+        <li>First, declare a function and set its code. Then, call the function to execute it.</li>
+        <li>// comment if no line-breaks</li>
+        <li>/* comment */</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>I can code!</p>
+  </footer>
+  <script src="./assets/script.js"></script>       <!--links the JavaScript file to HTML-->
+</body>
+
 </html>
