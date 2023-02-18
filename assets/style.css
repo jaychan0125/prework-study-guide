@@ -1,11 +1,11 @@
-   * {       /* "*"-special wild card symbol allows us to apply a rule to all the elements visible on the page */
-       margin: 0;       /*margin property indicates space wanted around oustide of element. set to 0: indicates we want no extra space around the element */
-       padding: 0;       /*padding property adds space around contents inside an element. if incrased, will make element bigger (as although transparent is still located within the element) */
+   * {       /* "*"-special wild card symbol allows us to apply a rule to all the elements visible on the page*/
+       margin: 0;       /*margin property indicates space wanted around oustide of element. set to 0: indicates we want no extra space around the element*/
+       padding: 0;       /*padding property adds space around contents inside an element. if incrased, will make element bigger (as although transparent is still located within the element)*/
        font-family: verdana;
    }
 
    header,
-   footer {       /*combined 2 selectors into a single CSS rule with a comma (rather than repeating a rule, elements that share the same styling can be grouped together). Declarations will affect both sectors */
+   footer {       /*combined 2 selectors into a single CSS rule with a comma (rather than repeating a rule, elements that share the same styling can be grouped together). Declarations will affect both sectors*/
        width: 100%;
        height: 100%;
        background-color: midnightblue;
@@ -17,8 +17,8 @@
        text-align: center;
    }
 
-   img {       /*assigns property values to any image element in the markup */
-       display: block;       /*assigns each image to start on a new line */
+   img {       /*assigns property values to any image element in the markup*/
+       display: block;       /*assigns each image to start on a new line*/
        height: 50px;
        width: 50px;
        margin-left: auto;
@@ -47,9 +47,9 @@
        font-size: 30px;
    }
 
-   .card {       /*class selector: "."-designates it is a class selector. HTML elements assigned to the class "card" will gain the property assignments from CSS */
+   .card {       /*class selector: "."-designates it is a class selector. HTML elements assigned to the class "card" will gain the property assignments from CSS*/
        width: 80%;
-       margin: 40px auto;       /*first value is top&bottom; auto value is for left&right */
+       margin: 40px auto;       /*first value is top&bottom; auto value is for left&right*/
        border: 2px solid rgb(146, 161, 208);
        box-shadow: 4px 6px rgb(146, 161, 208);
    }

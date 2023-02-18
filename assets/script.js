@@ -11,7 +11,7 @@ console.log("Topics we are learning:");  /* console.log(); -method used to outpu
 listTopics(); //need to call a function for it to work
 
 
-var topic = prompt("What are you interested in?"); //prompt -prompts user to input data
+var topic = prompt("Which topic are you interested in (HTML, CSS, Git, JavaScript)?"); //prompt -prompts user to input data
 /*var : variables declared with 'var' are function-scoped(visible througout the entire function in which they are declared)
 let : variables declared with 'let' are block-scoped(are only visible within the block in which they are declared (ie. between the {} braces)) */
 topic = topic.toUpperCase(); //converts to uppercase
