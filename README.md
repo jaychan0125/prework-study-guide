@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a website with notes on the topics we have learned in our [Precourse Work](https://courses.bootcampspot.com/courses/3172)! for the Coding Boot Camp 
+This is a website with notes on the topics we have learned in our [Precourse Work](https://courses.bootcampspot.com/courses/3172) for the Coding Boot Camp! 
 Topics include: HTML, CSS, Git, and JavaScript.
 
 This was made as a quick reference point for notes that have been accumulated throughout the precourse modules. Creating a summary of important points one may need to quickly refer to rather than going through all the pages and videos in the module. 
