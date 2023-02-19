@@ -30,7 +30,9 @@ The topics we have learned will be listed. The prompt at the beginning will chan
 ## Credits
 
 Coding [Boot Camp](https://courses.bootcampspot.com)
+
 [Google](https://www.google.ca/)
+
 
 ## License
 
